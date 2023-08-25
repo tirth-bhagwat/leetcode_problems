@@ -1,14 +1,14 @@
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
-pub struct Node<T: std::fmt::Display + Clone + Copy> {
+pub struct ListNode<T: std::fmt::Display + Clone + Copy> {
     pub val: T,
-    pub next: Option<Box<Node<T>>>,
+    pub next: Option<Box<ListNode<T>>>,
 }
 
-impl<T: std::fmt::Display + Clone + Copy> Node<T> {
+impl<T: std::fmt::Display + Clone + Copy> ListNode<T> {
     #[inline]
     pub fn new(val: T) -> Self {
-        Node { next: None, val }
+        ListNode { next: None, val }
     }
     pub fn from_vec(v: Vec<T>) -> Option<Box<Self>> {
         match v.len() {
@@ -16,15 +16,15 @@ impl<T: std::fmt::Display + Clone + Copy> Node<T> {
                 return None;
             }
             1 => {
-                return Some(Box::new(Node {
+                return Some(Box::new(ListNode {
                     val: v[0],
                     next: None,
                 }));
             }
             _ => {
-                return Some(Box::new(Node {
+                return Some(Box::new(ListNode {
                     val: v[0],
-                    next: Node::from_vec(v[1..].to_vec()),
+                    next: ListNode::from_vec(v[1..].to_vec()),
                 }));
             }
         }

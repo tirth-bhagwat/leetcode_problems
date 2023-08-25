@@ -1,14 +1,17 @@
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
-use crate::data_structures::singly_link_list::Node;
+use crate::data_structures::singly_link_list::ListNode;
 
 struct Solution {}
 
 impl Solution {
-    pub fn remove_nth_from_end(head: Option<Box<Node<i32>>>, n: i32) -> Option<Box<Node<i32>>> {
+    pub fn remove_nth_from_end(
+        head: Option<Box<ListNode<i32>>>,
+        n: i32,
+    ) -> Option<Box<ListNode<i32>>> {
         let mut length = 0;
 
-        let mut next: &Option<Box<Node<i32>>> = &head;
+        let mut next: &Option<Box<ListNode<i32>>> = &head;
         if head.as_ref().unwrap().next.is_none() {
             return None;
         }
@@ -24,11 +27,11 @@ impl Solution {
             }
         }
 
-        let mut new_head = Node::new(head.as_ref().unwrap().val);
+        let mut new_head = ListNode::new(head.as_ref().unwrap().val);
         let mut data_node = &head;
 
         if n == length {
-            new_head = Node::new(head.as_ref().unwrap().next.as_ref().unwrap().val);
+            new_head = ListNode::new(head.as_ref().unwrap().next.as_ref().unwrap().val);
             data_node = &head.as_ref().unwrap().next;
         }
 
@@ -41,7 +44,7 @@ impl Solution {
             if i == length - n - 1 {
                 continue;
             }
-            let new = Node::new(data_node.as_ref().unwrap().val);
+            let new = ListNode::new(data_node.as_ref().unwrap().val);
 
             curr.next = Some(Box::new(new));
 
@@ -58,23 +61,23 @@ mod tests {
     #[test]
     fn test() {
         assert_eq!(
-            Solution::remove_nth_from_end(Node::from_vec(vec![1, 2, 3, 4, 5]), 2)
+            Solution::remove_nth_from_end(ListNode::from_vec(vec![1, 2, 3, 4, 5]), 2)
                 .unwrap()
                 .to_str(),
             "1235"
         );
         assert_eq!(
-            Solution::remove_nth_from_end(Node::from_vec(vec![1]), 1),
+            Solution::remove_nth_from_end(ListNode::from_vec(vec![1]), 1),
             None
         );
         assert_eq!(
-            Solution::remove_nth_from_end(Node::from_vec(vec![1, 2]), 1)
+            Solution::remove_nth_from_end(ListNode::from_vec(vec![1, 2]), 1)
                 .unwrap()
                 .to_str(),
             "1"
         );
         assert_eq!(
-            Solution::remove_nth_from_end(Node::from_vec(vec![1, 2]), 2)
+            Solution::remove_nth_from_end(ListNode::from_vec(vec![1, 2]), 2)
                 .unwrap()
                 .to_str(),
             "2"
