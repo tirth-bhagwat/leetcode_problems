@@ -1,5 +1,6 @@
 #!/bin/python3
 
+import os
 import sys
 
 URL = sys.argv[1]
@@ -15,7 +16,13 @@ tmp = URL[len(SEARCH) :]
 tmp = tmp[: tmp.index("/")]
 name = tmp.replace("-", "_")
 
-with open(TARGET_DIR + name + ".rs", "w") as f:
+new_filename = TARGET_DIR + name + ".rs"
+
+if os.path.exists(new_filename):
+    print("File already exists")
+    exit(1)
+
+with open(new_filename, "w") as f:
     f.write(
         f"""
 // {SEARCH}{name.replace('_', '-')}/
