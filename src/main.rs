@@ -13,6 +13,7 @@ mod longest_palindromic_substrings;
 mod frog_jump;
 mod implement_stack_using_queues;
 mod minimum_penalty_for_a_shop;
+mod longest_common_prefix;
 
 fn main() {
     println!("Hello, world!");
