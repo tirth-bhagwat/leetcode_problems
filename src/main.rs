@@ -21,6 +21,9 @@ mod find_the_highest_altitude;
 mod find_pivot_index;
 mod find_the_difference_of_two_arrays;
 mod counting_bits;
+mod construct_binary_tree_from_preorder_and_inorder_traversal;
+mod tmp;
+mod extra_characters_in_a_string;
 
 fn main() {
     println!("Hello, world!");
