@@ -26,6 +26,7 @@ mod tmp;
 mod extra_characters_in_a_string;
 mod word_break;
 mod unique_paths;
+mod unique_paths_ii;
 
 fn main() {
     println!("Hello, world!");
