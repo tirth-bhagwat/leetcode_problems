@@ -9,7 +9,7 @@ mod remove_nth_node_from_end_of_list;
 mod two_sum_ii_input_array_is_sorted;
 mod maximum_length_of_pair_chain;
 mod palindromic_substrings;
-mod longest_palindromic_substrings;
+mod longest_palindromic_substring;
 mod frog_jump;
 mod implement_stack_using_queues;
 mod minimum_penalty_for_a_shop;
@@ -27,6 +27,7 @@ mod extra_characters_in_a_string;
 mod word_break;
 mod unique_paths;
 mod unique_paths_ii;
+mod roman_to_integer;
 
 fn main() {
     println!("Hello, world!");
