@@ -29,6 +29,7 @@ mod unique_paths;
 mod unique_paths_ii;
 mod roman_to_integer;
 mod number_of_steps_to_reduce_a_number_to_zero;
+mod minimum_moves_to_reach_target_score;
 
 fn main() {
     println!("Hello, world!");
