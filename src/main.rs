@@ -28,6 +28,7 @@ mod word_break;
 mod unique_paths;
 mod unique_paths_ii;
 mod roman_to_integer;
+mod number_of_steps_to_reduce_a_number_to_zero;
 
 fn main() {
     println!("Hello, world!");
