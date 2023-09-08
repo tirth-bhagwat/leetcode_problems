@@ -37,6 +37,7 @@ mod pascals_triangle;
 mod pascals_triangle_ii;
 mod find_triangular_sum_of_an_array;
 mod calculate_digit_sum_of_a_string;
+mod min_max_game;
 
 fn main() {
     println!("Hello, world!");
