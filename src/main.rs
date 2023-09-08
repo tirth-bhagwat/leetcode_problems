@@ -35,6 +35,7 @@ mod split_linked_list_in_parts;
 mod reverse_linked_list_ii;
 mod pascals_triangle;
 mod pascals_triangle_ii;
+mod find_triangular_sum_of_an_array;
 
 fn main() {
     println!("Hello, world!");
