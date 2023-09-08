@@ -34,6 +34,7 @@ mod number_of_steps_to_reduce_a_number_in_binary_representation_to_one;
 mod split_linked_list_in_parts;
 mod reverse_linked_list_ii;
 mod pascals_triangle;
+mod pascals_triangle_ii;
 
 fn main() {
     println!("Hello, world!");
