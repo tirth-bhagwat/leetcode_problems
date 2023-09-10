@@ -41,6 +41,7 @@ mod min_max_game;
 mod decremental_string_concatenation;
 mod combination_sum_iv;
 mod count_all_valid_pickup_and_delivery_options;
+mod knight_dialer;
 
 fn main() {
     println!("Hello, world!");
