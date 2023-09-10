@@ -20,41 +20,23 @@ impl Solution {
             vec![2, 4],    // 9
         ];
 
-        let mut prev_data: Vec<HashMap<i32, i64>> = vec![HashMap::new(); 10];
+        let mut prev_data: Vec<i64> = vec![1; 10];
 
-        let mut res: i64 = 0;
-        let x = (2, 4);
-
-        for i in 0..10 {
-            println!("i = {}", i);
-            res += Solution::count_for_pos(n - 1, i, &can_travel, &mut prev_data) % Solution::MOD;
+        for _ in 2..=n {
+            let mut new: Vec<i64> = Vec::new();
+            for i in &can_travel {
+                new.push(
+                    i.iter()
+                        .map(|x| prev_data[*x])
+                        .fold(0, |acc, oth| (acc + oth) % Solution::MOD),
+                )
+            }
+            prev_data = new;
         }
 
-        return (res % Solution::MOD) as i32;
-    }
-
-    pub fn count_for_pos(
-        dist: i32,
-        pos: usize, 
-        travel_list: &Vec<Vec<usize>>,
-        prev_data: &mut Vec<HashMap<i32, i64>>,
-    ) -> i64 {
-        if dist == 0 {
-            return 1;
-        }
-
-        if let Some(val) = prev_data[pos].get(&dist) {
-            return *val;
-        }
-
-        let mut res = 0;
-        for i in &travel_list[pos] {
-            res += Solution::count_for_pos(dist - 1, *i, &travel_list, prev_data) % Solution::MOD;
-        }
-
-        prev_data[pos].insert(dist, res);
-
-        return res;
+        return prev_data
+            .iter()
+            .fold(0, |acc, oth| ((acc as i64 + oth) % Solution::MOD) as i32);
     }
 }
 
