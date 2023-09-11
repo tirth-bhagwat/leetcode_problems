@@ -42,6 +42,7 @@ mod decremental_string_concatenation;
 mod combination_sum_iv;
 mod count_all_valid_pickup_and_delivery_options;
 mod knight_dialer;
+mod group_the_people_given_the_group_size_they_belong_to;
 
 fn main() {
     println!("Hello, world!");
