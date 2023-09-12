@@ -45,6 +45,7 @@ mod knight_dialer;
 mod group_the_people_given_the_group_size_they_belong_to;
 mod maximum_number_of_groups_with_increasing_length;
 mod same_tree;
+mod minimum_deletions_to_make_character_frequencies_unique;
 
 fn main() {
     println!("Hello, world!");
