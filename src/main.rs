@@ -4,6 +4,7 @@
 mod add_two_numbers;
 mod calculate_digit_sum_of_a_string;
 mod candy;
+mod check_if_string_is_a_prefix_of_array;
 mod combination_sum_iv;
 mod construct_binary_tree_from_preorder_and_inorder_traversal;
 mod count_all_valid_pickup_and_delivery_options;
