@@ -14,6 +14,7 @@ mod decremental_string_concatenation;
 mod extra_characters_in_a_string;
 mod find_pivot_index;
 mod find_the_difference_of_two_arrays;
+mod find_the_duplicate_number;
 mod find_the_highest_altitude;
 mod find_the_town_judge;
 mod find_triangular_sum_of_an_array;
