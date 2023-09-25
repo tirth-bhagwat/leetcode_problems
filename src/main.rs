@@ -18,6 +18,7 @@ mod find_the_duplicate_number;
 mod find_the_highest_altitude;
 mod find_the_town_judge;
 mod find_triangular_sum_of_an_array;
+mod first_missing_positive;
 mod frog_jump;
 mod group_the_people_given_the_group_size_they_belong_to;
 mod implement_stack_using_queues;
@@ -55,6 +56,7 @@ mod two_sum_ii_input_array_is_sorted;
 mod unique_paths;
 mod unique_paths_ii;
 mod word_break;
+mod find_the_difference;
 
 fn main() {
     println!("Hello, world!");
