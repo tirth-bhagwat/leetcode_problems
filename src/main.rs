@@ -39,6 +39,7 @@ mod min_max_game;
 mod minimum_deletions_to_make_character_frequencies_unique;
 mod minimum_moves_to_reach_target_score;
 mod minimum_penalty_for_a_shop;
+mod monotonic_array;
 mod number_of_steps_to_reduce_a_number_in_binary_representation_to_one;
 mod number_of_steps_to_reduce_a_number_to_zero;
 mod palindromic_substrings;
