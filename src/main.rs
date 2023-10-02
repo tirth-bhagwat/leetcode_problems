@@ -48,6 +48,7 @@ mod pascals_triangle_ii;
 mod path_with_minimum_effort;
 mod pattern_132;
 mod reconstruct_itinerary;
+mod remove_colored_pieces_if_both_neighbors_are_the_same_color;
 mod remove_duplicate_letters;
 mod remove_letter_to_equalize_frequency;
 mod remove_nth_node_from_end_of_list;
