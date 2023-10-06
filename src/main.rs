@@ -25,6 +25,7 @@ mod first_missing_positive;
 mod frog_jump;
 mod group_the_people_given_the_group_size_they_belong_to;
 mod implement_stack_using_queues;
+mod integer_break;
 mod integer_to_roman;
 mod interleaving_string;
 mod knight_dialer;
