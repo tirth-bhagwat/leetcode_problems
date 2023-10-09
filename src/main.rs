@@ -2,6 +2,7 @@
 // #![allow(unused_variables)]
 
 mod add_two_numbers;
+mod build_array_where_you_can_find_the_maximum_exactly_k_comparisons;
 mod calculate_digit_sum_of_a_string;
 mod candy;
 mod check_if_string_is_a_prefix_of_array;
@@ -68,6 +69,7 @@ mod two_sum_ii_input_array_is_sorted;
 mod unique_paths;
 mod unique_paths_ii;
 mod word_break;
+mod find_first_and_last_position_of_element_in_sorted_array;
 
 fn main() {
     println!("Hello, world!");
