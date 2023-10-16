@@ -15,6 +15,7 @@ mod decoded_string_at_index;
 mod decremental_string_concatenation;
 mod design_hashmap;
 mod extra_characters_in_a_string;
+mod find_first_and_last_position_of_element_in_sorted_array;
 mod find_pivot_index;
 mod find_the_difference;
 mod find_the_difference_of_two_arrays;
@@ -52,6 +53,7 @@ mod pascals_triangle;
 mod pascals_triangle_ii;
 mod path_with_minimum_effort;
 mod pattern_132;
+mod plates_between_candles;
 mod reconstruct_itinerary;
 mod remove_colored_pieces_if_both_neighbors_are_the_same_color;
 mod remove_duplicate_letters;
@@ -69,7 +71,6 @@ mod two_sum_ii_input_array_is_sorted;
 mod unique_paths;
 mod unique_paths_ii;
 mod word_break;
-mod find_first_and_last_position_of_element_in_sorted_array;
 
 fn main() {
     println!("Hello, world!");
