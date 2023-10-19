@@ -2,6 +2,7 @@
 // #![allow(unused_variables)]
 
 mod add_two_numbers;
+mod backspace_string_compare;
 mod build_array_where_you_can_find_the_maximum_exactly_k_comparisons;
 mod calculate_digit_sum_of_a_string;
 mod candy;
