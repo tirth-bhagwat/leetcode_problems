@@ -74,6 +74,9 @@ mod two_sum_ii_input_array_is_sorted;
 mod unique_paths;
 mod unique_paths_ii;
 mod word_break;
+mod find_the_original_array_of_prefix_xor;
+mod find_mode_in_binary_search_tree;
+mod build_an_array_with_stack_operations;
 
 fn main() {
     println!("Hello, world!");
