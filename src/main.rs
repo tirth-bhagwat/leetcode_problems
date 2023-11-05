@@ -77,6 +77,8 @@ mod word_break;
 mod find_the_original_array_of_prefix_xor;
 mod find_mode_in_binary_search_tree;
 mod build_an_array_with_stack_operations;
+mod last_moment_before_all_ants_fall_out_of_a_plank;
+mod find_the_winner_of_an_array_game;
 
 fn main() {
     println!("Hello, world!");
