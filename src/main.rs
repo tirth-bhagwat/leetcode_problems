@@ -80,6 +80,10 @@ mod build_an_array_with_stack_operations;
 mod last_moment_before_all_ants_fall_out_of_a_plank;
 mod find_the_winner_of_an_array_game;
 mod seat_reservation_manager;
+mod equal_row_and_column_pairs;
+mod eliminate_maximum_number_of_monsters;
+mod determine_if_a_cell_is_reachable_at_a_given_time;
+mod count_number_of_homogenous_substrings;
 
 fn main() {
     println!("Hello, world!");
