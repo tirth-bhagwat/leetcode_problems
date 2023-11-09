@@ -84,6 +84,7 @@ mod equal_row_and_column_pairs;
 mod eliminate_maximum_number_of_monsters;
 mod determine_if_a_cell_is_reachable_at_a_given_time;
 mod count_number_of_homogenous_substrings;
+mod number_of_substrings_with_only_1s;
 
 fn main() {
     println!("Hello, world!");
