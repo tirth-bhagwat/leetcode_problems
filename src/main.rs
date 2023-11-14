@@ -85,6 +85,11 @@ mod eliminate_maximum_number_of_monsters;
 mod determine_if_a_cell_is_reachable_at_a_given_time;
 mod count_number_of_homogenous_substrings;
 mod number_of_substrings_with_only_1s;
+mod count_vowel_substrings_of_a_string;
+mod restore_the_array_from_adjacent_pairs;
+mod design_graph_with_shortest_path_calculator;
+mod asteroid_collision;
+mod sort_vowels_in_a_string;
 
 fn main() {
     println!("Hello, world!");
