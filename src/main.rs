@@ -93,6 +93,7 @@ mod sort_vowels_in_a_string;
 mod reduction_operations_to_make_the_array_elements_equal;
 mod sum_of_absolute_differences_in_a_sorted_array;
 mod lemonade_change;
+mod buy_two_chocolates;
 
 fn main() {
     println!("Hello, world!");
