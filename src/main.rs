@@ -90,6 +90,9 @@ mod restore_the_array_from_adjacent_pairs;
 mod design_graph_with_shortest_path_calculator;
 mod asteroid_collision;
 mod sort_vowels_in_a_string;
+mod reduction_operations_to_make_the_array_elements_equal;
+mod sum_of_absolute_differences_in_a_sorted_array;
+mod lemonade_change;
 
 fn main() {
     println!("Hello, world!");
