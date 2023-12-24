@@ -98,6 +98,8 @@ mod widest_vertical_area_between_two_points_containing_no_points;
 mod html_entity_parser;
 mod maximum_score_after_splitting_a_string;
 mod path_crossing;
+mod strong_password_checker;
+mod minimum_changes_to_make_alternating_binary_string;
 
 fn main() {
     println!("Hello, world!");
