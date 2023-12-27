@@ -100,6 +100,9 @@ mod maximum_score_after_splitting_a_string;
 mod path_crossing;
 mod strong_password_checker;
 mod minimum_changes_to_make_alternating_binary_string;
+mod decode_ways;
+mod image_smoother;
+mod minimum_time_to_make_rope_colorful;
 
 fn main() {
     println!("Hello, world!");

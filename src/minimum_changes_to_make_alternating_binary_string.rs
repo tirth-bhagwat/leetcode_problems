@@ -25,26 +25,7 @@ impl Solution {
             }
         }
 
-        let mut count_1 = 0;
-        for i in (0..s.len()).step_by(2) {
-            if let Some(ch) = s.get(i..i + 2) {
-                count_1 += match ch {
-                    "00" => 1,
-                    "01" => 2,
-                    "10" => 0,
-                    "11" => 1,
-                    _ => unreachable!(),
-                }
-            } else {
-                count_1 += match s.chars().last().unwrap() {
-                    '0' => 1,
-                    '1' => 0,
-                    _ => unreachable!(),
-                };
-            }
-        }
-
-        min(count_0, count_1)
+        min(count_0, (s.len() as i32 - count_0))
     }
 }
 
