@@ -103,6 +103,9 @@ mod minimum_changes_to_make_alternating_binary_string;
 mod decode_ways;
 mod image_smoother;
 mod minimum_time_to_make_rope_colorful;
+mod string_compression_ii;
+mod longest_substring_without_repeating_characters;
+mod redistribute_characters_to_make_all_strings_equal;
 
 fn main() {
     println!("Hello, world!");
