@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/largest-substring-between-two-equal-characters/
 
-use std::cmp::Reverse;
+use std::cmp::{max, Reverse};
 use std::collections::HashMap;
 
 struct Solution {}
@@ -10,6 +10,27 @@ impl Solution {
         if s.len() < 3 {
             return 0;
         }
+
+        // let mut max_len = -1;
+        // let mut hm = [-1; 26];
+        //
+        // for (i, ch) in s.as_bytes().iter().enumerate() {
+        //     let ind = (*ch - b'a') as usize;
+        //     match hm[ind] {
+        //         -1 => {
+        //             hm[ind] = i as i32;
+        //         }
+        //         _ => {
+        //             max_len = max(max_len, i as i32 - hm[ind]);
+        //         }
+        //     }
+        // }
+        //
+        // if max_len == -1 {
+        //     return max_len;
+        // }
+        //
+        // max_len - 1
 
         let mut s = s.as_bytes();
         let mut hm: HashMap<u8, (i32, i32)> = HashMap::new();
