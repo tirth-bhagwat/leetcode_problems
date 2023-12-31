@@ -106,6 +106,8 @@ mod minimum_time_to_make_rope_colorful;
 mod string_compression_ii;
 mod longest_substring_without_repeating_characters;
 mod redistribute_characters_to_make_all_strings_equal;
+mod binary_watch;
+mod largest_substring_between_two_equal_characters;
 
 fn main() {
     println!("Hello, world!");
