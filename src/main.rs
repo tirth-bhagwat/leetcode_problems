@@ -108,6 +108,7 @@ mod longest_substring_without_repeating_characters;
 mod redistribute_characters_to_make_all_strings_equal;
 mod binary_watch;
 mod largest_substring_between_two_equal_characters;
+mod letter_combinations_of_a_phone_number;
 
 fn main() {
     println!("Hello, world!");

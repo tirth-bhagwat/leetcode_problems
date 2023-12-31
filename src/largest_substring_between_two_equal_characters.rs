@@ -34,7 +34,6 @@ impl Solution {
 
         let mut s = s.as_bytes();
         let mut hm: HashMap<u8, (i32, i32)> = HashMap::new();
-        // let mut prev = s.next().unwrap();
 
         for (i, ch) in s.iter().enumerate() {
             if let Some(x) = hm.get_mut(ch) {
