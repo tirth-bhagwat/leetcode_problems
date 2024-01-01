@@ -109,6 +109,7 @@ mod redistribute_characters_to_make_all_strings_equal;
 mod binary_watch;
 mod largest_substring_between_two_equal_characters;
 mod letter_combinations_of_a_phone_number;
+mod assign_cookies;
 
 fn main() {
     println!("Hello, world!");
