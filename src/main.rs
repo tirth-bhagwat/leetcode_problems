@@ -110,6 +110,7 @@ mod binary_watch;
 mod largest_substring_between_two_equal_characters;
 mod letter_combinations_of_a_phone_number;
 mod assign_cookies;
+mod convert_an_array_into_a_2d_array_with_conditions;
 
 fn main() {
     println!("Hello, world!");
