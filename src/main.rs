@@ -112,6 +112,7 @@ mod letter_combinations_of_a_phone_number;
 mod assign_cookies;
 mod convert_an_array_into_a_2d_array_with_conditions;
 mod number_of_laser_beams_in_a_bank;
+mod minimum_number_of_operations_to_make_array_empty;
 
 fn main() {
     println!("Hello, world!");
