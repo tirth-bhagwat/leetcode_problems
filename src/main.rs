@@ -113,6 +113,9 @@ mod assign_cookies;
 mod convert_an_array_into_a_2d_array_with_conditions;
 mod number_of_laser_beams_in_a_bank;
 mod minimum_number_of_operations_to_make_array_empty;
+mod maximum_number_of_events_that_can_be_attended;
+mod range_sum_of_bst;
+mod leaf_similar_trees;
 
 fn main() {
     println!("Hello, world!");
