@@ -116,6 +116,10 @@ mod minimum_number_of_operations_to_make_array_empty;
 mod maximum_number_of_events_that_can_be_attended;
 mod range_sum_of_bst;
 mod leaf_similar_trees;
+mod amount_of_time_for_binary_tree_to_be_infected;
+mod maximum_difference_between_node_and_ancestor;
+mod determine_if_string_halves_are_alike;
+mod minimum_number_of_steps_to_make_two_strings_anagram;
 
 fn main() {
     println!("Hello, world!");
