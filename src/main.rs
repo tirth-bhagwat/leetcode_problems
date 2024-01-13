@@ -120,6 +120,7 @@ mod amount_of_time_for_binary_tree_to_be_infected;
 mod maximum_difference_between_node_and_ancestor;
 mod determine_if_string_halves_are_alike;
 mod minimum_number_of_steps_to_make_two_strings_anagram;
+mod remove_duplicates_from_sorted_array;
 
 fn main() {
     println!("Hello, world!");
