@@ -123,6 +123,8 @@ mod minimum_number_of_steps_to_make_two_strings_anagram;
 mod remove_duplicates_from_sorted_array;
 mod move_zeroes;
 mod best_time_to_buy_and_sell_stock;
+mod sort_colors;
+mod determine_if_two_strings_are_close;
 
 fn main() {
     println!("Hello, world!");
