@@ -125,6 +125,8 @@ mod move_zeroes;
 mod best_time_to_buy_and_sell_stock;
 mod sort_colors;
 mod determine_if_two_strings_are_close;
+mod set_matrix_zeroes;
+mod find_players_with_zero_or_one_losses;
 
 fn main() {
     println!("Hello, world!");
