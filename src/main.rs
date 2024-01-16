@@ -127,6 +127,7 @@ mod sort_colors;
 mod determine_if_two_strings_are_close;
 mod set_matrix_zeroes;
 mod find_players_with_zero_or_one_losses;
+mod insert_delete_getrandom_o1;
 
 fn main() {
     println!("Hello, world!");
