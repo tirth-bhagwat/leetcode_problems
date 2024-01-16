@@ -129,6 +129,7 @@ mod set_matrix_zeroes;
 mod find_players_with_zero_or_one_losses;
 mod insert_delete_getrandom_o1;
 mod two_sum;
+mod three_sum;
 
 fn main() {
     println!("Hello, world!");
