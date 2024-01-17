@@ -130,6 +130,8 @@ mod find_players_with_zero_or_one_losses;
 mod insert_delete_getrandom_o1;
 mod two_sum;
 mod three_sum;
+mod unique_number_of_occurrences;
+mod two_sum_iv_input_is_a_bst;
 
 fn main() {
     println!("Hello, world!");
