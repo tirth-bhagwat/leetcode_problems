@@ -132,6 +132,8 @@ mod two_sum;
 mod three_sum;
 mod unique_number_of_occurrences;
 mod two_sum_iv_input_is_a_bst;
+mod four_sum;
+mod climbing_stairs;
 
 fn main() {
     println!("Hello, world!");
