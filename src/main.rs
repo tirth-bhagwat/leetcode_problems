@@ -134,6 +134,8 @@ mod unique_number_of_occurrences;
 mod two_sum_iv_input_is_a_bst;
 mod four_sum;
 mod climbing_stairs;
+mod best_time_to_buy_and_sell_stock_ii;
+mod minimum_falling_path_sum;
 
 fn main() {
     println!("Hello, world!");
