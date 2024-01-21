@@ -136,6 +136,9 @@ mod four_sum;
 mod climbing_stairs;
 mod best_time_to_buy_and_sell_stock_ii;
 mod minimum_falling_path_sum;
+mod minimum_falling_path_sum_ii;
+mod sum_of_subarray_minimums;
+mod house_robber;
 
 fn main() {
     println!("Hello, world!");
