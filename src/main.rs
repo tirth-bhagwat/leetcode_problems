@@ -139,6 +139,7 @@ mod minimum_falling_path_sum;
 mod minimum_falling_path_sum_ii;
 mod sum_of_subarray_minimums;
 mod house_robber;
+mod set_mismatch;
 
 fn main() {
     println!("Hello, world!");
