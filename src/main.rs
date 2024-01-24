@@ -140,6 +140,8 @@ mod minimum_falling_path_sum_ii;
 mod sum_of_subarray_minimums;
 mod house_robber;
 mod set_mismatch;
+mod maximum_length_of_a_concatenated_string_with_unique_characters;
+mod pseudo_palindromic_paths_in_a_binary_tree;
 
 fn main() {
     println!("Hello, world!");
