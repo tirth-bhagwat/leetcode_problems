@@ -142,6 +142,7 @@ mod house_robber;
 mod set_mismatch;
 mod maximum_length_of_a_concatenated_string_with_unique_characters;
 mod pseudo_palindromic_paths_in_a_binary_tree;
+mod sum_root_to_leaf_numbers;
 
 fn main() {
     println!("Hello, world!");

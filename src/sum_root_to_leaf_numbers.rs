@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
+// https://leetcode.com/problems/sum-root-to-leaf-numbers/
 
 struct Solution {}
 
@@ -23,24 +23,25 @@ impl TreeNode {
 use std::cell::RefCell;
 use std::rc::Rc;
 impl Solution {
-    pub fn pseudo_palindromic_paths(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-        let mut nums_found = [false; 9];
+    pub fn sum_numbers(
+        root: Option<Rc<RefCell<TreeNode>>>,
+    ) -> i32 {
+        let mut nums_found = 0;
+        let mut sum = 0;
         Self::helper(&root, &mut nums_found)
     }
 
-    pub fn helper(root: &Option<Rc<RefCell<TreeNode>>>, nums_found: &mut [bool; 9]) -> i32 {
+    pub fn helper(
+        root: &Option<Rc<RefCell<TreeNode>>>,
+        nums_found: &mut i32,
+    ) -> i32 {
         let tmp = root.as_ref().unwrap();
         let node = tmp.borrow_mut();
-        nums_found[node.val as usize - 1] = !nums_found[node.val as usize - 1];
+        *nums_found *= 10;
+        *nums_found += node.val;
 
         let res = match (&node.left, &node.right) {
-            (None, None) => {
-                if nums_found.iter().filter(|x| **x).count() > 1 {
-                    0
-                } else {
-                    1
-                }
-            }
+            (None, None) => *nums_found,
             (Some(x), Some(y)) => {
                 Self::helper(&node.left, nums_found) + Self::helper(&node.right, nums_found)
             }
@@ -48,7 +49,7 @@ impl Solution {
             (None, Some(x)) => Self::helper(&node.right, nums_found),
         };
 
-        nums_found[node.val as usize - 1] = !nums_found[node.val as usize - 1];
+        *nums_found /= 10;
         return res;
     }
 }
