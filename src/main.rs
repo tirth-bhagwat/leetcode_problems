@@ -144,6 +144,7 @@ mod maximum_length_of_a_concatenated_string_with_unique_characters;
 mod pseudo_palindromic_paths_in_a_binary_tree;
 mod sum_root_to_leaf_numbers;
 mod longest_common_subsequence;
+mod binary_tree_right_side_view;
 
 fn main() {
     println!("Hello, world!");
