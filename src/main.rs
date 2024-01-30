@@ -145,6 +145,8 @@ mod pseudo_palindromic_paths_in_a_binary_tree;
 mod sum_root_to_leaf_numbers;
 mod longest_common_subsequence;
 mod binary_tree_right_side_view;
+mod out_of_boundary_paths;
+mod evaluate_reverse_polish_notation;
 
 fn main() {
     println!("Hello, world!");
