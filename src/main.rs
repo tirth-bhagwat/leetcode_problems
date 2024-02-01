@@ -148,6 +148,7 @@ mod binary_tree_right_side_view;
 mod out_of_boundary_paths;
 mod evaluate_reverse_polish_notation;
 mod daily_temperatures;
+mod divide_array_into_arrays_with_max_difference;
 
 fn main() {
     println!("Hello, world!");
