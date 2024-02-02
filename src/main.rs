@@ -149,6 +149,7 @@ mod out_of_boundary_paths;
 mod evaluate_reverse_polish_notation;
 mod daily_temperatures;
 mod divide_array_into_arrays_with_max_difference;
+mod sequential_digits;
 
 fn main() {
     println!("Hello, world!");
