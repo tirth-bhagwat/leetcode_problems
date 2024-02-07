@@ -151,6 +151,7 @@ mod daily_temperatures;
 mod divide_array_into_arrays_with_max_difference;
 mod sequential_digits;
 mod first_unique_character_in_a_string;
+mod group_anagrams;
 
 fn main() {
     println!("Hello, world!");
