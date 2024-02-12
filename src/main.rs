@@ -153,6 +153,9 @@ mod sequential_digits;
 mod first_unique_character_in_a_string;
 mod group_anagrams;
 mod sort_characters_by_frequency;
+mod perfect_squares;
+mod largest_divisible_subset;
+mod majority_element;
 
 fn main() {
     println!("Hello, world!");
