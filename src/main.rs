@@ -156,6 +156,7 @@ mod sort_characters_by_frequency;
 mod perfect_squares;
 mod largest_divisible_subset;
 mod majority_element;
+mod find_first_palindromic_string_in_the_array;
 
 fn main() {
     println!("Hello, world!");
