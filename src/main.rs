@@ -157,6 +157,7 @@ mod perfect_squares;
 mod largest_divisible_subset;
 mod majority_element;
 mod find_first_palindromic_string_in_the_array;
+mod rearrange_array_elements_by_sign;
 
 fn main() {
     println!("Hello, world!");
