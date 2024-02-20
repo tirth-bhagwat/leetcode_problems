@@ -159,6 +159,8 @@ mod majority_element;
 mod find_first_palindromic_string_in_the_array;
 mod rearrange_array_elements_by_sign;
 mod find_polygon_with_the_largest_perimeter;
+mod least_number_of_unique_integers_after_k_removals;
+mod missing_number;
 
 fn main() {
     println!("Hello, world!");
